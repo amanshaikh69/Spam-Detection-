@@ -1,1 +1,2 @@
-# Spam-Detection-
+Spam or Ham Detection Project:  
+This project focuses on building a machine learning model to classify emails, messages, or text data as either "Spam" (unwanted or junk) or "Ham" (legitimate). It uses techniques like Natural Language Processing (NLP) to preprocess text data—such as tokenization, removing stopwords, and vectorization—before feeding it into classifiers like Naive Bayes, Support Vector Machines (SVM), or neural networks. The goal is to enhance email filtering systems and improve communication efficiency by reducing spam exposure.
