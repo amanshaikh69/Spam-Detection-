@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#6C63FF"  # Customize this (e.g., purple)
+backgroundColor = "#F5F5F5"  # Light background
+secondaryBackgroundColor = "#FFFFFF"  # Cards or input areas
+textColor = "#000000"  # Black text
+font = "sans serif"  # Available options: 'sans serif', 'serif', 'monospace'

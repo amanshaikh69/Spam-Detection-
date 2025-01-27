@@ -1,0 +1,41 @@
+ABOUT DATASET
+The SMS Spam Collection Dataset is a set of SMS messages tagged for SMS spam research, consisting of 5,574 messages in total. The dataset aims to help develop models for classifying messages as either "ham" (legitimate) or "spam" (unsolicited).
+
+Context and Content
+Context: This dataset was collected for research in SMS spam detection. The messages are in English and come from various sources on the internet.
+Content:
+The dataset has two columns:
+v1: Label (either "ham" or "spam").
+v2: The raw text of the SMS message.
+Breakdown of messages:
+Ham (legitimate): 87%
+Spam: 13%
+Data Sources
+Grumble text Website: 425 spam messages were manually extracted. This UK forum allows users to make public claims about SMS spam messages.
+NUS SMS Corpus (NSC): 3,375 randomly chosen ham messages collected for research at the National University of Singapore. These messages were contributed by volunteers.
+Caroline Tag's PhD Thesis: 450 ham messages.
+SMS Spam Corpus v.0.1 Big: Includes 1,002 ham messages and 322 spam messages, used in several academic research studies.
+Usage and Applications
+Research: The dataset is used for developing and testing machine learning models for SMS spam detection.
+Learning and Application: It can serve as a practice dataset for natural language processing (NLP) and classification problems.
+Acknowledgements
+If you use this dataset in your work, you are encouraged to reference the following paper:
+
+Almeida, T.A., Gómez Hidalgo, J.M., Yamakami, A. Contributions to the Study of SMS Spam Filtering: New Collection and Results. Proceedings of the 2011 ACM Symposium on Document Engineering (DOCENG'11), Mountain View, CA, USA, 2011.
+Inspirations
+The primary inspiration for this dataset is to build a prediction model that can accurately classify SMS messages as either spam or legitimate.
+
+Example Data Entries
+Ham Example: "Ok lar... Joking wif u oni..."
+Spam Example: "Free entry in 2 a weekly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)"
+Potential Use Cases
+Text Classification: Developing spam filters for messaging applications.
+NLP Projects: Practicing various NLP techniques like tokenization, stemming, lemmatization, etc.
+Model Benchmarking: Comparing different machine learning models' performance on text classification tasks.
+The dataset is a valuable resource for both academic research and practical applications in the field of spam detection and text classification.
+
+How to run code:-
+1.Save this script as app.py.
+2.Place the spam.csv file in the same directory.
+3.Run the Streamlit app using:-
+    streamlit run app.py
